@@ -1,0 +1,66 @@
+ .masthead-container {
+   background: url("http://trueimageproductions.com/wp-content/uploads/2014/01/Cine-Workshop-HDx35-Background.jpg");
+   height: 57vh;
+   width: 100vw;
+   top:0;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 75px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+
+ }
+
+ nav {
+   display:flex;
+   justify-content: space-between;
+   padding-left: 15px;
+   padding-top: 10px;
+   position:fixed;
+   width:100%;
+   height: 75px;
+ }
+.logo {
+ width: 50px;
+height:50px;
+}
+.ham {
+  width:75px;
+  height:50px;
+  z-index: 1;
+}
+ .Digital{
+   font-size: 35px;
+
+ }
+.Work{
+font-size: 95px;
+}
+.Build{
+  font-size: 20px;
+  text-align: center;
+}
+ button {
+   margin-top: 20px;
+   font-size: 20px;
+   color:white;
+   border:none;
+   border-radius: 15px;
+   padding: 10px 100px 10px 100px;
+   background-color: green;
+ }
+.line {
+height: 5px;
+width: 60px;
+background: white !important;
+}
+.lines {
+  display:flex;
+  height: 70px;
+  width: 350px;
+  align-items: center;
+  justify-content: space-between;
+}
